@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+button {
+	margin: 20px auto; 
+	display: block;
+	width: 300px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	cursor: pointer;
+	font-size: 15px;
+	text-align: center;
+	padding: 2%;
+}
+
+body {
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	margin: 0 auto;
+	text-align: center;
+	background-color:  #00aced;
+	font-family: Lato;
+}
+
+main {
+	margin: 50px auto;
+}
+
+
+.button-section {
+	margin-top: 120px;
+}
+a {
+	text-decoration: none;
+}
+main, a, .fa, button {
+	color: #fff;
+}
